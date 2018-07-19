@@ -1,7 +1,7 @@
 node{
     stage('scm') {
     
-    git 'https://github.com/Ram-peram/game-of-life.git'
+    git 'https://github.com/wakaleo/game-of-life.git'
     
     }
     stage('build & package')
